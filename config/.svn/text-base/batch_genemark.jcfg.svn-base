@@ -1,0 +1,23 @@
+#-----------------------------------------------------------+
+# Config file for runing genemark in batch mode             |
+# For use with batch_genemark.pl                            |
+# 03/16/2010
+# James. C. Estill
+#-----------------------------------------------------------+
+# 1. Param Name - Long form name of parameter file
+#                 This will be used in the program source
+#		  column of the GFF output file		
+# 2. Param Short - Short form name of parameter file
+# 4. GMHMME Version - Version number of gmhmme to run
+#                     Some matricies were generated for different
+#                     program versions
+# 3. Param File  - File name of the parameter 
+#-----------------------------------------------------------+
+# Param		Param	GMHMME	Param
+# Name   	Short	Ver	File
+#-----------------------------------------------------------+
+GeneMarkHMM_Os	os	3	o_sativa.mod
+GeneMarkHMM_Zm	zm	2	corn.mtx
+GeneMarkHMM_Ta	ta	2	wheat.mtx
+GeneMarkHMM_Hv	hv	2	barley.mtx
+# END

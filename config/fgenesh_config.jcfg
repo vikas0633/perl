@@ -1,0 +1,60 @@
+# The config file for batch fgenesh run in dawgpaws
+# 1. PARAM NAME - Name used to tag the parameter set used in the
+#                     GFF output file
+# 2. MATRIX     - Path to the matrix file to use
+# 3. HML_seq    - hml_seq option
+# 4. Options    - Additional options for running Fgenesh
+# 
+# The fourth column is optional, and contains additional command line
+# options to run in fgenesh.
+#-----------------------------------------------------------+
+# PARAM         MATRIX
+# NAME          LOCATION
+#-----------------------------------------------------------+
+Dicots_def	/Users/jestill/code/fgenesh/Dicots
+# END
+#
+#-----------------------------------------------------------+
+# CONFIG FILE NOTES:
+#-----------------------------------------------------------+
+# Additional FGenesh options are below
+# Options:
+#   -GC:xxx            -  Use potential GC donor splice sites with score above
+#                         xxx. xxx is floating point value corresponded
+#                          the number
+#                         of matched letters in site consensus (xxx >= 0).
+#   -GC                -  Use all potential GC donor splice sites.
+#   -p1:xxx            -  Get sequence from position xxx.
+#   -p2:xxx            -  Get sequence to position xxx.
+#   -c                 -  Use condensed sequence.
+#   -min_hml:xxx       -  Minimal considered homology (FGENESH+ and 
+#                         FGENESH_C only). Default is 90%
+#   -exon_table:file   -  File with table of exons.
+#   -exon_bonus:xxx    -  Add bonus xxx for all exons from table.
+#   -hml_bonus:xxx     -  Addition multiplier for homology (default - 1.0)
+#                         (FGENESH_C only).
+#   -send              -  Soft homology termination (FGENESH_C only).
+#   -full_start        -  Homologous sequences have a head (FGENESH_C only).
+#   -full_end t        -  Homologous sequences have a tail (FGENESH_C only).
+#   -ipen:xxx          -  Penalties for all internal exons without homology 
+#                         (FGENESH_C only).
+#   -pmrna             -  Print mRNA sequences for predicted genes.
+#   -pexons            -  Print exons sequences for predicted genes.
+#   -t:table           -  Use translation table.
+#   -st:table          -  Print selested translation table.
+#                         table values are - 
+#              1 - Standard. (Default)
+#              2 - Vertebrate Mitochondrial.
+#              3 - Yeast Mitochondrial.
+#              4 - Mold Mitochondria, Protozoan Mitochondrial, 
+#                  Colenterate Mitochondrial,
+#                  Mycoplasma, Spiroplasma.
+#              5 - Invertebrate Mitochondrial.
+#              6 - Ciliate Nuclear, Dasycladacean Nuclear, Hexamita Nuclear.
+#              9 - Echinoderm Nuclear.
+#             10 - Euplotid Nuclear.
+#             11 - Bacterial.
+#             12 - Alternative Yeast Nuclear.
+#             13 - Ascidian Mitochondrial.
+#             14 - Flatworm Mitochondrial.
+#             15 - Blepharisma Macronuclear.

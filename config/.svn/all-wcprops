@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config
+END
+findmite_params.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/findmite_params.txt
+END
+batch_hmmer.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_hmmer.jcfg
+END
+batch_ltrseq.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_ltrseq.jcfg
+END
+ltr_seq_def.param
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/ltr_seq_def.param
+END
+batch_oligocount.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_oligocount.jcfg
+END
+hex_eugene.par
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/hex_eugene.par
+END
+snap_config.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/snap_config.jcfg
+END
+batch_blast_full.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_blast_full.jcfg
+END
+batch_genemark.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_genemark.jcfg
+END
+batch_ltrfinder.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_ltrfinder.jcfg
+END
+batch_blast_tab.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_blast_tab.jcfg
+END
+batch_mask.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_mask.jcfg
+END
+findmite_params.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/findmite_params.jcfg
+END
+batch_findltr.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_findltr.jcfg
+END
+batch_mask_clip.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/batch_mask_clip.jcfg
+END
+fgenesh_config.jcfg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/dawgpaws/!svn/ver/949/branches/release-1.1/scripts/config/fgenesh_config.jcfg
+END

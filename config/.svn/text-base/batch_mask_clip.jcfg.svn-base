@@ -1,0 +1,10 @@
+# Config file for the batch_mask program
+# NAME - Name of the repeat database
+# PATH - Path to the fasta formatted repeat database
+#----------------------------------------------------------------------
+# NAME	PATH                                    Additional Options
+#                                             
+#----------------------------------------------------------------------
+# The following will clip out insertion elements with the is_clip option
+TREP9	/db/jlblab/repeats/TREP9.nr.fasta	-is_clip
+#END

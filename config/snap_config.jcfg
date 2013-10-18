@@ -1,0 +1,19 @@
+# DAWGPAWS SNAP CONFIG FILE
+# 
+# PARAM	        Matrix                                          ADDITIONAL
+# NAME          PATH                                            OPTIONS
+o_sativa	/Users/jestill/code/snap/HMM/O.sativa.hmm
+# END
+# OPTIONS INCLUDE
+#  -lcmask         treat lowercase as N
+#  -plus           predict on plus strand only
+#  -minus          predict on minus strand only
+#  -gff            output annotation as GFF
+#  -ace            output annotation as ACED
+#  -quiet          do not send progress to STDERR
+#  -aa <file>      create FASTA file of proteins
+#  -tx <file>      create FASTA file of transcripts
+#  -xdef <file>    external definitions
+#  -name <string>  name for the gene [default snap]
+# NOTE : By default the batch_snap.pl program will always produce
+#        GFF formatted output.
