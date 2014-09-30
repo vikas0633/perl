@@ -126,6 +126,11 @@ foreach my $asmbl_id (sort keys %$contig_to_gene_list_href) {
 			}
 			
             print ">$isoform_id $gene_id $locus_string $com_name $asmbl_id:$model_lend-$model_rend($orientation)\n$seq\n";
+            
+            if ($seq_type eq 'gene') {
+                # just once per transcript.
+                last;
+            }
         }
     }
 }

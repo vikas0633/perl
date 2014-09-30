@@ -3,6 +3,8 @@
 use strict;
 use warnings;
 
+
+use lib ($ENV{EUK_MODULES});
 use Gene_obj;
 use Fasta_reader;
 
@@ -82,6 +84,12 @@ main: {
 		eval {
 			
 			my $gene_obj = new Gene_obj();
+
+            if ($coding_lend == $coding_rend +1) { ## not coding
+                $coding_lend = 0;
+                $coding_rend = 0;
+            }
+            
 			$gene_obj->build_gene_obj_exons_n_cds_range(\@exons, $coding_lend, $coding_rend, $orient);
 			
 			$gene_obj->{com_name} = $com_name;
